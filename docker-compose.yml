@@ -1,0 +1,6 @@
+﻿services:
+  crudwithcleanarchitectureandsolid.api:
+    image: crudwithcleanarchitectureandsolid.api
+    build:
+      context: .
+      dockerfile: CRUDWithCleanArchitectureAndSolid.Api/Dockerfile

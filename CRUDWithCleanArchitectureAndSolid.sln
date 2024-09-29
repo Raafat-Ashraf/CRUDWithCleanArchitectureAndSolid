@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWithCleanArchitectureAndSolid.Api", "CRUDWithCleanArchitectureAndSolid.Api\CRUDWithCleanArchitectureAndSolid.Api.csproj", "{C1292EE4-B4FB-4D19-ABAB-C6A88C1AE6E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1EC6A4D-571F-4843-88B6-F5149E949DD9}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWithCleanArchitectureAndSolid.Domain", "CRUDWithCleanArchitectureAndSolid.Domain\CRUDWithCleanArchitectureAndSolid.Domain.csproj", "{1A999252-E5EC-4A31-9A32-42CA9C0345EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWithCleanArchitectureAndSolid.Infrastructure", "CRUDWithCleanArchitectureAndSolid.Infrastructure\CRUDWithCleanArchitectureAndSolid.Infrastructure.csproj", "{D67231A3-C503-4650-A5B9-5B60CA465F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWithCleanArchitectureAndSolid.Application", "CRUDWithCleanArchitectureAndSolid.Application\CRUDWithCleanArchitectureAndSolid.Application.csproj", "{C7F7DBDA-5C95-4403-A206-64E4E629D3CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1292EE4-B4FB-4D19-ABAB-C6A88C1AE6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1292EE4-B4FB-4D19-ABAB-C6A88C1AE6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1292EE4-B4FB-4D19-ABAB-C6A88C1AE6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1292EE4-B4FB-4D19-ABAB-C6A88C1AE6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A999252-E5EC-4A31-9A32-42CA9C0345EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A999252-E5EC-4A31-9A32-42CA9C0345EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A999252-E5EC-4A31-9A32-42CA9C0345EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A999252-E5EC-4A31-9A32-42CA9C0345EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67231A3-C503-4650-A5B9-5B60CA465F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67231A3-C503-4650-A5B9-5B60CA465F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67231A3-C503-4650-A5B9-5B60CA465F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67231A3-C503-4650-A5B9-5B60CA465F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F7DBDA-5C95-4403-A206-64E4E629D3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F7DBDA-5C95-4403-A206-64E4E629D3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F7DBDA-5C95-4403-A206-64E4E629D3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F7DBDA-5C95-4403-A206-64E4E629D3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
